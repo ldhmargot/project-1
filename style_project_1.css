@@ -1,0 +1,123 @@
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+	padding: 25px;
+	margin: 25px
+}
+
+body {
+	color:black;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	background-color: #fa5477;
+	line-height: normal;
+	font-weight: bold;
+}
+
+h2 {
+	color: #fa5477;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height:1;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #fa5477;
+  text-decoration: none;
+}
+
+p {
+	padding:10px;
+	margin:10px;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.header {
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 5px solid #A4C9F5;
+}
+
+.button {
+	background-color:#A4C9F5;
+	border: 1px solid lightgrey;
+	box-shadow: 2px 2px 2px lightgrey;
+	padding: 10px;
+	margin: 10px;
+	border-radius:8%;
+	color:white;
+}
+
+#logo {
+	padding:5px;
+	margin:5px;
+	max-width:25%;
+    height:auto;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+  float:center;
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 5px 20px; /* add som left/right padding between list items */
+}
+
+.icon {
+	background-color:#A4C9F5;
+	border: 1px solid lightgrey;
+	box-shadow: 2px 2px 2px lightgrey;
+	padding: 10px;
+	margin: 10px;
+	border-radius:8%;
+	float:center;
+}
+
+#icon-bar {
+	text-align:center;
+	font-weight:bold;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
